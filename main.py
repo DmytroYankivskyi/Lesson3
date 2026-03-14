@@ -6,6 +6,7 @@ class Student:
         self.height = h
     def grow(self, height = 120):
         self.height = height + 10
+
 Nick = Student(h=180)
 Kate = Student(h=190)
 Max = Student()
